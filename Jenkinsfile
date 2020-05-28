@@ -4,7 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'node --version'
-                sh 'svn --version'
+                sh 'echo "This is a Test stage"'
             }
         }
     }
